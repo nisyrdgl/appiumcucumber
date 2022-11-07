@@ -32,7 +32,7 @@ public class Driver {
             desiredCapabilities.setCapability("autoAcceptAlert",true);
             desiredCapabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT,"60000");
 
-            if (ConfigReader.getProperty("platformName").equals("android")) {
+            if (ConfigReader.getProperty("platformName").equals("pages/android")) {
                 //if you do not provide app path so you should provide "appPackage" and "appActivity"
                 desiredCapabilities.setCapability("appPackage","");
                 desiredCapabilities.setCapability("appActivity","");

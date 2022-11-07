@@ -1,4 +1,4 @@
-package pages;
+package pages.android;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidBy;
