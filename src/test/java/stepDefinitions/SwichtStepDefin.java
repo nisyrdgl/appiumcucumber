@@ -79,4 +79,6 @@ public class SwichtStepDefin {
     public void ikinciSwichtinAcikOldugunuOnaylar() {
         Assert.assertEquals("true",swichtPage.switch2.getAttribute("checked"));
     }
+
+
 }

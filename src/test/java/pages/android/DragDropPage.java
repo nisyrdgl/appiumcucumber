@@ -19,4 +19,10 @@ public class DragDropPage {
     public MobileElement ikinciTop;
     @AndroidFindBy(xpath = "(//android.view.View)[3]")
     public MobileElement ucuncuTop;
+    @AndroidFindBy(xpath = "(//android.view.View)[4]")
+    public MobileElement dorduncuTop;
+
+    @AndroidFindBy(id = "com.touchboarder.android.api.demos:id/drag_text")
+    public MobileElement text;
+
 }

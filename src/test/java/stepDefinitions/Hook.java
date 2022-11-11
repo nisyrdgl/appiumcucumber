@@ -1,8 +1,8 @@
 package stepDefinitions;
 
 import io.appium.java_client.service.local.AppiumDriverLocalService;
-import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
+import org.junit.After;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import utilities.Driver;

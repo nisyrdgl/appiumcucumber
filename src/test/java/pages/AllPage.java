@@ -12,6 +12,13 @@ public class AllPage {
     private SwichtPage swichtPage;
     private ViewsPage viewsPage;
     private  DragDropPage dragDropPage;
+    private  DateWidgetsPage dateWidgetsPage;
+    public DateWidgetsPage dateWidgetsPage(){
+        if (dateWidgetsPage == null){
+            dateWidgetsPage= new DateWidgetsPage();
+        }
+        return  dateWidgetsPage;
+    }
     public ApiDemoPage apiDemoPage(){
         if (apiDemoPage == null){
             apiDemoPage= new ApiDemoPage();
@@ -52,6 +59,7 @@ public class AllPage {
     public DragDropPage dragDropPage(){
         if(dragDropPage == null){
             dragDropPage =new DragDropPage();
+
         }
         return  dragDropPage;
     }

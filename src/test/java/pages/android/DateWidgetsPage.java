@@ -8,13 +8,22 @@ import utilities.Driver;
 
 import java.time.Duration;
 
-public class ViewsPage {
-    public ViewsPage() {
+public class DateWidgetsPage {
+    public DateWidgetsPage() {
         PageFactory.initElements(new AppiumFieldDecorator(Driver.getAppiumDriver(), Duration.ofSeconds(15) ),this);
-    }
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Drag and Drop']")
-    public MobileElement dragAndDrop;
 
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Date Widgets']")
-    public MobileElement dateWidgets;
+    }
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='2. Inline']")
+    public MobileElement ikinciInline;
+
+    @AndroidFindBy(accessibility = "9")
+    public MobileElement num9;
+
+    @AndroidFindBy(accessibility = "15")
+    public MobileElement num15;
+
+    @AndroidFindBy(accessibility = "45")
+    public MobileElement num45;
 }
+
+
