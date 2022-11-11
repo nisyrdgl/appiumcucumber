@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf3a417c-3430-407c-a8ae-6d942f58e910" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/android/DateWidgetsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SwipeStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Swipe.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AllPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/android/DragDropPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/android/DragDropPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/android/ViewsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/android/ViewsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/DragDropStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DragDropStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SwichtStepDefin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SwichtStepDefin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/dragdrop.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/dragdrop.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
