@@ -13,6 +13,7 @@ public class AllPage {
     private ViewsPage viewsPage;
     private  DragDropPage dragDropPage;
     private  DateWidgetsPage dateWidgetsPage;
+
     public DateWidgetsPage dateWidgetsPage(){
         if (dateWidgetsPage == null){
             dateWidgetsPage= new DateWidgetsPage();

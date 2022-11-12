@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3a417c-3430-407c-a8ae-6d942f58e910" name="Changes" comment="">
+    <list default="true" id="cf3a417c-3430-407c-a8ae-6d942f58e910" name="Changes" comment="11/11/2022">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ScrollStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Scrolling.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AllPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/android/ViewsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/android/ViewsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +58,14 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Runner">
-    <configuration name="Feature: ilkTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Scrolling" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ilkTest.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Scrolling.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="appiumCucumber" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: ilkTest" />
+      <option name="SUGGESTED_NAME" value="Feature: Scrolling" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -92,15 +97,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Swicht Element" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Scroll to element and click" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/swichtAndroid.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Scrolling.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="appiumCucumber" />
-      <option name="NAME_FILTER" value="^Swicht Element$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Swicht Element$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Swicht Element" />
+      <option name="NAME_FILTER" value="^Scroll to element and click$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Scroll to element and click$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Scroll to element and click" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -112,15 +117,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: swicht elementler" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: WebView tiklama" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/swichtAndroid.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Scrolling.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="appiumCucumber" />
-      <option name="NAME_FILTER" value="^swicht elementler$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^swicht elementler$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: swicht elementler" />
+      <option name="NAME_FILTER" value="^WebView tiklama$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^WebView tiklama$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: WebView tiklama" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -150,10 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: WebView tiklama" />
+        <item itemvalue="Cucumber Java.Feature: Scrolling" />
+        <item itemvalue="Cucumber Java.Scenario: Scroll to element and click" />
         <item itemvalue="Cucumber Java.Scenario: Given App yuklensin" />
-        <item itemvalue="Cucumber Java.Scenario: swicht elementler" />
-        <item itemvalue="Cucumber Java.Scenario: Swicht Element" />
-        <item itemvalue="Cucumber Java.Feature: ilkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +171,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667589775153</updated>
     </task>
+    <task id="LOCAL-00001" summary="11/11/2022">
+      <created>1668196883889</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668196883889</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,5 +191,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="11/11/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/11/2022" />
   </component>
 </project>
