@@ -9,6 +9,7 @@ import io.cucumber.java.en.Then;
 import org.openqa.selenium.Dimension;
 import pages.AllPage;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 import java.time.Duration;
 import java.util.List;
@@ -80,9 +81,12 @@ public class ScrollStepdefs {
 
     @Then("kullanici WebView butonunu UIscroll ile tiklasin")
     public void kullaniciWebViewButonunuUIscrollIleTiklasin() {
+
         AndroidDriver driver= (AndroidDriver) Driver.getAppiumDriver();
         driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"))");
         elements.viewsPage().webViewSingle.click();
+
+
 
 
     }

@@ -3,12 +3,7 @@ package stepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import pages.AllPage;
-import pages.android.ApiDemoPage;
-import pages.android.MainPage;
-import pages.android.PreferenceDependenciesPage;
-import pages.android.PreferencePage;
 import utilities.Driver;
-import utilities.ReusableMethods;
 
 public class IlkTestStepDefinition {
     AllPage elements = new AllPage();
@@ -41,8 +36,8 @@ public class IlkTestStepDefinition {
     }
 
 
-    @Then("kullanici Preference dependencies tikladi")
-    public void kullanici_preference_dependencies_tikladi() {
+    @Then("kullanici Preference Dependencies tikladi")
+    public void kullanici_preference_Dependencies_tikladi() {
         // preferencePage.preferenceDependencies.click();
         elements.preferencePage().preferenceDependencies.click();
 

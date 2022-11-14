@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3a417c-3430-407c-a8ae-6d942f58e910" name="Changes" comment="11/11/2022">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ScrollStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Scrolling.feature" afterDir="false" />
+    <list default="true" id="cf3a417c-3430-407c-a8ae-6d942f58e910" name="Changes" comment="12/11/2022">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HazirMethodStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/HazirMethod.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AllPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/android/ViewsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/android/ViewsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/DragDropStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DragDropStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/IlkTestStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/IlkTestStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/ScrollStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ScrollStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SwichtStepDefin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SwichtStepDefin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SwipeStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SwipeStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ilkTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ilkTest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +64,14 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Runner">
-    <configuration name="Feature: Scrolling" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: HazirMethod" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Scrolling.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HazirMethod.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="appiumCucumber" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Scrolling" />
+      <option name="SUGGESTED_NAME" value="Feature: HazirMethod" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -77,35 +83,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Given App yuklensin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: WebView tiklama (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dragdrop.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HazirMethod.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="appiumCucumber" />
-      <option name="NAME_FILTER" value="^Given App yuklensin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Given App yuklensin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Given App yuklensin" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Scroll to element and click" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Scrolling.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="appiumCucumber" />
-      <option name="NAME_FILTER" value="^Scroll to element and click$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Scroll to element and click$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Scroll to element and click" />
+      <option name="NAME_FILTER" value="^WebView tiklama$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^WebView tiklama$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: WebView tiklama" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -137,6 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: hazir methot kullanimi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HazirMethod.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="appiumCucumber" />
+      <option name="NAME_FILTER" value="^hazir methot kullanimi$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^hazir methot kullanimi$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: hazir methot kullanimi" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="appiumCucumber" />
       <extension name="coverage">
@@ -155,10 +161,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: WebView tiklama (1)" />
+        <item itemvalue="Cucumber Java.Scenario: hazir methot kullanimi" />
+        <item itemvalue="Cucumber Java.Feature: HazirMethod" />
         <item itemvalue="Cucumber Java.Scenario: WebView tiklama" />
-        <item itemvalue="Cucumber Java.Feature: Scrolling" />
-        <item itemvalue="Cucumber Java.Scenario: Scroll to element and click" />
-        <item itemvalue="Cucumber Java.Scenario: Given App yuklensin" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668196883889</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="12/11/2022">
+      <created>1668279467667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668279467667</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +207,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11/11/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="11/11/2022" />
+    <MESSAGE value="12/11/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="12/11/2022" />
   </component>
 </project>

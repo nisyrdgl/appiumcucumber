@@ -10,7 +10,7 @@ import org.junit.Assert;
 import pages.android.PreferencePage;
 import pages.android.SwichtPage;
 import utilities.Driver;
-import utilities.ReusableMethods;
+import utilities.ReusableMethods1;
 
 public class SwichtStepDefin {
     TouchAction touchAction =new TouchAction<>(Driver.getAppiumDriver());
@@ -18,9 +18,9 @@ public class SwichtStepDefin {
     SwichtPage swichtPage = new SwichtPage();
     @When("kullanici swicht tikladi")
     public void kullanici_swicht_tikladi() {
-        ReusableMethods.wait(3);
+        ReusableMethods1.wait(3);
         preferencePage.swicht.click();
-        ReusableMethods.wait(3);
+        ReusableMethods1.wait(3);
     }
 
 

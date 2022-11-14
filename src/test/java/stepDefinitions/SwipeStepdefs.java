@@ -7,7 +7,6 @@ import io.appium.java_client.touch.offset.ElementOption;
 import io.cucumber.java.en.And;
 import pages.AllPage;
 import utilities.Driver;
-import utilities.ReusableMethods;
 
 import java.time.Duration;
 

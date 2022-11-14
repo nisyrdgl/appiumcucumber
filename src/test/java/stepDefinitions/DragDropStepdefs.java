@@ -1,7 +1,6 @@
 package stepDefinitions;
 
 import io.appium.java_client.TouchAction;
-import io.appium.java_client.touch.TapOptions;
 import io.appium.java_client.touch.offset.ElementOption;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -9,7 +8,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import pages.AllPage;
 import utilities.Driver;
-import utilities.ReusableMethods;
+import utilities.ReusableMethods1;
 
 public class DragDropStepdefs {
     AllPage allPage =new AllPage();
@@ -40,7 +39,7 @@ public class DragDropStepdefs {
 
     @Then("kullanici cikan texti dogrular")
     public void kullaniciCikanTextiDogrular() {
-        ReusableMethods.wait(6);
+        ReusableMethods1.wait(6);
         Assert.assertTrue(allPage.dragDropPage().text.isDisplayed());
     }
 }
