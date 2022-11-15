@@ -13,13 +13,10 @@ public class AllPage {
     private ViewsPage viewsPage;
     private  DragDropPage dragDropPage;
     private  DateWidgetsPage dateWidgetsPage;
+    private ExpandableListPage expandableListPage;
+    private SpinnerPage spinnerPage;
 
-    public DateWidgetsPage dateWidgetsPage(){
-        if (dateWidgetsPage == null){
-            dateWidgetsPage= new DateWidgetsPage();
-        }
-        return  dateWidgetsPage;
-    }
+
     public ApiDemoPage apiDemoPage(){
         if (apiDemoPage == null){
             apiDemoPage= new ApiDemoPage();
@@ -63,5 +60,25 @@ public class AllPage {
 
         }
         return  dragDropPage;
+    }
+    public ExpandableListPage expandableListPage(){
+        if (expandableListPage==null){
+            expandableListPage = new ExpandableListPage();
+
+        }
+        return  expandableListPage;
+    }
+
+    public DateWidgetsPage dateWidgetsPage(){
+        if (dateWidgetsPage == null){
+            dateWidgetsPage= new DateWidgetsPage();
+        }
+        return  dateWidgetsPage;
+    }
+    public SpinnerPage spinnerPage(){
+        if (spinnerPage==null){
+            spinnerPage=new SpinnerPage();
+        }
+        return  spinnerPage;
     }
 }

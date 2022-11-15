@@ -1,7 +1,10 @@
 package utilities;
 
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.touch.LongPressOptions;
+import io.appium.java_client.touch.offset.ElementOption;
 
 import java.util.List;
 
@@ -9,14 +12,13 @@ public class ReusableMethods {
     public static void clickOnPage(String pageName) {
         List<MobileElement> pages = Driver.getAppiumDriver().findElementsByClassName("android.widget.TextView");
 
-        for (MobileElement page : pages) {
+        for (MobileElement page : pages) { //ui da goruluyorsa
             if (page.getText().equals(pageName)) {
-
-                System.out.println(page.getText() + " tiklandi");
                 page.click();
                 wait(3);
                 break;
             }
+
 
         }
     }
@@ -29,6 +31,14 @@ public class ReusableMethods {
         clickOnPage(Text);
         //2-)klasik yol ile
        // driver.findElementByXPath("//*[@text='" + Text + "']").click();
+
+    }
+    public  static void longPressOElement(MobileElement mobileElement){
+        TouchAction touchAction=new TouchAction<>(Driver.getAppiumDriver());
+        touchAction.longPress(LongPressOptions.longPressOptions()
+                .withElement(ElementOption.element(mobileElement)))
+                .release()
+                .perform();
 
     }
 

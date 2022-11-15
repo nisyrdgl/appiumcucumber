@@ -14,7 +14,7 @@ public class HazirMethodStepdefs {
 
 
     @Then("kullanici {string} butonunu UIscroll ile Reusable Method ile tiklasin")
-    public void kullaniciButonunuUIscrollIleReusableMethodIleTiklasin(String arg0) {
+    public void kullaniciButonunuUIscrollIleReusableMethodIleTiklasin(String Text) {
         ReusableMethods.scrollWithUiScrollable("WebView");
     }
 }
