@@ -10,12 +10,15 @@ import java.util.List;
 
 public class ReusableMethods {
     public static void clickOnPage(String pageName) {
+        wait(3);
         List<MobileElement> pages = Driver.getAppiumDriver().findElementsByClassName("android.widget.TextView");
-
         for (MobileElement page : pages) { //ui da goruluyorsa
             if (page.getText().equals(pageName)) {
                 page.click();
                 wait(3);
+                break;
+            } else {
+                scrollWithUiScrollable(pageName);
                 break;
             }
 
@@ -27,16 +30,16 @@ public class ReusableMethods {
         AndroidDriver<MobileElement> driver = (AndroidDriver) Driver.getAppiumDriver();
         //elementi buluncaya kadar scoll yap
         driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"" + Text + "\"))");
-        //1-)elementi bulunca tikla method ile
-        clickOnPage(Text);
-        //2-)klasik yol ile
-       // driver.findElementByXPath("//*[@text='" + Text + "']").click();
+
+        //bulunca tikla
+         driver.findElementByXPath("//*[@text='" + Text + "']").click();
 
     }
-    public  static void longPressOElement(MobileElement mobileElement){
-        TouchAction touchAction=new TouchAction<>(Driver.getAppiumDriver());
+
+    public static void longPressOElement(MobileElement mobileElement) {
+        TouchAction touchAction = new TouchAction<>(Driver.getAppiumDriver());
         touchAction.longPress(LongPressOptions.longPressOptions()
-                .withElement(ElementOption.element(mobileElement)))
+                        .withElement(ElementOption.element(mobileElement)))
                 .release()
                 .perform();
 

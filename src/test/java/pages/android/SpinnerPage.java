@@ -25,6 +25,8 @@ public class SpinnerPage {
     public MobileElement saturn;
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Saturn']")
     public MobileElement saturnAssert;
+    @AndroidFindBy(xpath = "//android.widget.Toast")
+    public MobileElement toastMesaj;
 
 
 }

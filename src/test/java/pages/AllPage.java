@@ -15,6 +15,13 @@ public class AllPage {
     private  DateWidgetsPage dateWidgetsPage;
     private ExpandableListPage expandableListPage;
     private SpinnerPage spinnerPage;
+    private PopupMesajPage popupMesajPage;
+    public PopupMesajPage popupMesajPage(){
+        if(popupMesajPage == null){
+            popupMesajPage =new PopupMesajPage();
+        }
+        return popupMesajPage;
+    }
 
 
     public ApiDemoPage apiDemoPage(){

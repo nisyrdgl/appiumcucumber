@@ -5,11 +5,13 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import pages.AllPage;
+import utilities.Driver;
 import utilities.ReusableMethods;
 
 public class SpinnerDrapDownStepdefns {
-  
-    AllPage elements =new AllPage();
+
+    AllPage elements = new AllPage();
+
     @When("kullanici Spinner butonunu UIscroll ile Reusable Method ile tiklasin")
     public void kullaniciSpinnerButonunuUIscrollIleReusableMethodIleTiklasin() {
         ReusableMethods.scrollWithUiScrollable("Spinner");
@@ -28,11 +30,14 @@ public class SpinnerDrapDownStepdefns {
     @And("kullanici planet sekmesinden {string} secebilmeli")
     public void kullaniciPlanetSekmesindenSecebilmeli(String arg0) {
         elements.spinnerPage().planetDropDown.click();
-        ReusableMethods.wait(3);
         elements.spinnerPage().saturn.click();
-        ReusableMethods.wait(3);
+        //çıkan popup mesajının assert işlemi
+        String toast = Driver.getAppiumDriver().findElementByXPath("//android.widget.Toast").getAttribute("name");
+        Assert.assertEquals("Spinner2: position=5 id=5", toast);
+        System.out.println(toast);
+        ReusableMethods.wait(2);
+        //Saturn seçilmesinin assert etme
         Assert.assertTrue(elements.spinnerPage().saturnAssert.isDisplayed());
-
 
     }
 

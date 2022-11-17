@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf3a417c-3430-407c-a8ae-6d942f58e910" name="Changes" comment="12/11/2022">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/android/ExpandableListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/android/SpinnerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ExpandableListStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SpinnerDrapDownStepdefns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DrapDown.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ExpandableList.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/android/PopupMesajPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/PopUpMesajStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Popup.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/AllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AllPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/android/SpinnerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/android/SpinnerPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HazirMethodStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HazirMethodStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/ScrollStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ScrollStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SpinnerDrapDownStepdefns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SpinnerDrapDownStepdefns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
